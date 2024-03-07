@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace PracticawebAPI2.Models
 {
-    public class equipos2
+    public class equipos
     {
         [Key]
         public int id_equipos { get; set; }

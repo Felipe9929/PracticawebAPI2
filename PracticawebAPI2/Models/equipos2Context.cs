@@ -9,7 +9,9 @@ namespace PracticawebAPI2.Models
 
         }
 
-        public DbSet<equipos2> equipos2 { get; set; }
-
+        public DbSet<equipos> equipos { get; set; }
+        public DbSet<estados_equipo> estados_equipo { get; set; }
+        public DbSet<marcas> marcas { get; set; }
+        public DbSet<tipo_equipo> tipo_equipo { get; set; }
     }
 }
